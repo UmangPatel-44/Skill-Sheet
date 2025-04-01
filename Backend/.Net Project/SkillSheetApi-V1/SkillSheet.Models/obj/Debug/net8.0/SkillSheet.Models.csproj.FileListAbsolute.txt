@@ -1,0 +1,43 @@
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.AssemblyReference.cache
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfoInputs.cache
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfo.cs
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.CoreCompileInputs.cache
+C:\SkillSheetApi\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.deps.json
+C:\SkillSheetApi\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.runtimeconfig.json
+C:\SkillSheetApi\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.dll
+C:\SkillSheetApi\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.pdb
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.dll
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\refint\SkillSheet.Models.dll
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.pdb
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.genruntimeconfig.cache
+C:\SkillSheetApi\SkillSheet.Models\obj\Debug\net8.0\ref\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.deps.json
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.runtimeconfig.json
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.pdb
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.AssemblyReference.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfoInputs.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfo.cs
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.CoreCompileInputs.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\refint\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.pdb
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.genruntimeconfig.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\ref\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.deps.json
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.runtimeconfig.json
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\bin\Debug\net8.0\SkillSheet.Models.pdb
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.AssemblyReference.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfoInputs.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.AssemblyInfo.cs
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.csproj.CoreCompileInputs.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\refint\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.pdb
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.genruntimeconfig.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\ref\SkillSheet.Models.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Models\obj\Debug\net8.0\SkillSheet.Models.sourcelink.json

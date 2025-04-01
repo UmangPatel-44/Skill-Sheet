@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "7GKQA4CcgT9sZx4EkMaaHirfCM0nFvbwhn2vfUR/ndo=",
+  "Source": "SkillSheet.WebApi",
+  "BasePath": "_content/SkillSheet.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SkillSheet.WebApi\\wwwroot",
+      "Source": "SkillSheet.WebApi",
+      "ContentRoot": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\",
+      "BasePath": "_content/SkillSheet.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_13.png",
+      "SourceId": "SkillSheet.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\",
+      "BasePath": "_content/SkillSheet.WebApi",
+      "RelativePath": "uploads/profile_photos/user_13#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0iyb19rk3q",
+      "Integrity": "mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\profile_photos\\user_13.png"
+    },
+    {
+      "Identity": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_23.jpg",
+      "SourceId": "SkillSheet.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\",
+      "BasePath": "_content/SkillSheet.WebApi",
+      "RelativePath": "uploads/profile_photos/user_23#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aogzw70jxg",
+      "Integrity": "KpsXF8+LjDF7ZSfSgWI8XWCM9QaK1wA4pPnhQBJJcX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\profile_photos\\user_23.jpg"
+    },
+    {
+      "Identity": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_5.jpg",
+      "SourceId": "SkillSheet.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\",
+      "BasePath": "_content/SkillSheet.WebApi",
+      "RelativePath": "uploads/profile_photos/user_5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1p8rxrum0c",
+      "Integrity": "Oy5S/PIb0XTvhlvJWv9v4Q/K3CMJiRgv/y5WVEx+7uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\profile_photos\\user_5.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/profile_photos/user_13.0iyb19rk3q.png",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 10:24:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0iyb19rk3q"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/profile_photos/user_13.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profile_photos/user_13.png",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 10:24:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profile_photos/user_23.aogzw70jxg.jpg",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KpsXF8+LjDF7ZSfSgWI8XWCM9QaK1wA4pPnhQBJJcX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 05:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aogzw70jxg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/profile_photos/user_23.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KpsXF8+LjDF7ZSfSgWI8XWCM9QaK1wA4pPnhQBJJcX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profile_photos/user_23.jpg",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KpsXF8+LjDF7ZSfSgWI8XWCM9QaK1wA4pPnhQBJJcX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 05:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KpsXF8+LjDF7ZSfSgWI8XWCM9QaK1wA4pPnhQBJJcX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profile_photos/user_5.1p8rxrum0c.jpg",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oy5S/PIb0XTvhlvJWv9v4Q/K3CMJiRgv/y5WVEx+7uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 09:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1p8rxrum0c"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/profile_photos/user_5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oy5S/PIb0XTvhlvJWv9v4Q/K3CMJiRgv/y5WVEx+7uc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profile_photos/user_5.jpg",
+      "AssetFile": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\wwwroot\\uploads\\profile_photos\\user_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oy5S/PIb0XTvhlvJWv9v4Q/K3CMJiRgv/y5WVEx+7uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 09:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oy5S/PIb0XTvhlvJWv9v4Q/K3CMJiRgv/y5WVEx+7uc="
+        }
+      ]
+    }
+  ]
+}

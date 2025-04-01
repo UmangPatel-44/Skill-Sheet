@@ -1,0 +1,43 @@
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.AssemblyReference.cache
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.GeneratedMSBuildEditorConfig.editorconfig
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfoInputs.cache
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfo.cs
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.CoreCompileInputs.cache
+C:\SkillSheetApi\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.deps.json
+C:\SkillSheetApi\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.runtimeconfig.json
+C:\SkillSheetApi\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.dll
+C:\SkillSheetApi\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.pdb
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.dll
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\refint\DataAccess.Enitites.dll
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.pdb
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.genruntimeconfig.cache
+C:\SkillSheetApi\DataAccess.Enitites\obj\Debug\net8.0\ref\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.deps.json
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.runtimeconfig.json
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.pdb
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.AssemblyReference.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfoInputs.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfo.cs
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.CoreCompileInputs.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\refint\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.pdb
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.genruntimeconfig.cache
+C:\Skill Sheet Project\Backend\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\ref\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.deps.json
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.runtimeconfig.json
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\bin\Debug\net8.0\DataAccess.Enitites.pdb
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.AssemblyReference.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfoInputs.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.AssemblyInfo.cs
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.csproj.CoreCompileInputs.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\refint\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.pdb
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.genruntimeconfig.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\ref\DataAccess.Enitites.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\DataAccess.Enitites\obj\Debug\net8.0\DataAccess.Enitites.sourcelink.json

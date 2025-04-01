@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SkillSheetApi/uploads/profile_photos/user_13.0iyb19rk3q.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\profile_photos\user_13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0iyb19rk3q"},{"Name":"integrity","Value":"sha256-mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc="},{"Name":"label","Value":"_content/SkillSheetApi/uploads/profile_photos/user_13.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 10:24:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SkillSheetApi/uploads/profile_photos/user_13.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\profile_photos\user_13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022mGevI8azJpeVo9u1tHykeEUHQOvKNW/ZIhcZP7h8kvc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 10:24:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SkillSheetApi/uploads/profile_photos/user_5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\profile_photos\user_5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OZxeZZUZiYHmkIaCqqXcIMTA8XFaK8tvl/SQKhs5QXU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"74256"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OZxeZZUZiYHmkIaCqqXcIMTA8XFaK8tvl/SQKhs5QXU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 07:40:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SkillSheetApi/uploads/profile_photos/user_5.rvdm0xpv86.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\profile_photos\user_5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rvdm0xpv86"},{"Name":"integrity","Value":"sha256-OZxeZZUZiYHmkIaCqqXcIMTA8XFaK8tvl/SQKhs5QXU="},{"Name":"label","Value":"_content/SkillSheetApi/uploads/profile_photos/user_5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"74256"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OZxeZZUZiYHmkIaCqqXcIMTA8XFaK8tvl/SQKhs5QXU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 07:40:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
