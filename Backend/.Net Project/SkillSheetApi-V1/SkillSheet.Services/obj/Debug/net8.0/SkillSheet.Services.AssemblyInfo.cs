@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillSheet.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e21fb166faf17a0c332d866a975cfa52efba7839")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08c7b964fb6f4ff74f186d1a7941d6f00662e3b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillSheet.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillSheet.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

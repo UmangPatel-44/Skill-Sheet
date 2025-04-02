@@ -28,7 +28,8 @@ namespace SkillSheet.Services.Implementation
                 string password = smtpSettings["Password"]!;
                 bool enableSsl = bool.Parse(smtpSettings["EnableSsl"]!);
 
-                
+                // Mask the new password
+                string maskedPassword = new string('*', newPassword.Length - 2) + newPassword[^2..];
 
                 using (var smtpClient = new SmtpClient(host, port))
                 {
@@ -44,7 +45,7 @@ namespace SkillSheet.Services.Implementation
                                     <h2 style='color: #2E86C1;'>Password Change Confirmation</h2>
                                     <p>Hello,</p>
                                     <p>We wanted to inform you that your password has been successfully changed.</p>
-                                    <p><strong>New Password:</strong> <span style='background-color: #f4f4f4; padding: 5px; border-radius: 5px;'>{newPassword}</span></p>
+                                    <p><strong>New Password:</strong> <span style='background-color: #f4f4f4; padding: 5px; border-radius: 5px;'>{maskedPassword}</span></p>
                                     <p>If you did not make this change, please contact our support team immediately.</p>
                                     <br>
                                     <p style='color: #888;'>Best Regards,</p>

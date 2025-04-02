@@ -11,7 +11,7 @@ namespace SkillSheet.Services.Interfaces
         Task<User> GetUserByIdAsync(int id);
         Task<User> GetUserByEmailAsync(string email);
         Task<bool> DeleteUserAsync(string email);
-        
+       
         Task<IEnumerable<User>> GetUsersByRole(string Role);
         Task<bool> ChangeUserAsync(ChangeUserDTO user);
 

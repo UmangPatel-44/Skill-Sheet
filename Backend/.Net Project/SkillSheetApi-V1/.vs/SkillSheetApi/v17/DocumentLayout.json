@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\dataaccess.enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|solutionrelative:dataaccess.enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,27 +39,11 @@
       "RelativeMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|solutionrelative:dataaccess.enitites\\context\\skillsheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E193D7C8-CC5C-44CA-9048-CA87DFCEDD41}|SkillSheet.WebApi\\SkillSheet.WebApi.csproj|solutionrelative:skillsheet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\implementation\\userdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -156,10 +160,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\dataaccess.enitites\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|solutionrelative:dataaccess.enitites\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\dataaccess.enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108D46C2-2020-4CE1-B9BB-8A28D08905C4}|DataAccess.Enitites\\DataAccess.Enitites.csproj|solutionrelative:dataaccess.enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44F1453E-B54B-444B-9E0C-FAFD742501D2}|DataAccess.Repositories\\DataAccess.Repositories.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\dataaccess.repositories\\interfaces\\iuserrepositrory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -322,49 +322,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
-              "ToolTip": "C:\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs [Read Only]",
-              "ViewState": "AgIAABcAAAAAAAAAAIAwwCMAAAAIAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:38:59.493Z",
-              "EditorCaption": " [Read Only]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
-              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserService.cs",
-              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
-              "RelativeToolTip": "SkillSheet.Services\\Implementation\\UserService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAtwCsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:38:29.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess.Repositories\\Implementation\\UserRepository.cs",
-              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserRepository.cs",
-              "RelativeToolTip": "DataAccess.Repositories\\Implementation\\UserRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIAwwDUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:21:36.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "SkillsheetContext.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\Context\\SkillsheetContext.cs",
               "RelativeDocumentMoniker": "DataAccess.Enitites\\Context\\SkillsheetContext.cs",
@@ -382,38 +348,39 @@
               "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\EmailService.cs",
               "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\EmailService.cs",
               "RelativeToolTip": "SkillSheet.Services\\Implementation\\EmailService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwDwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T09:07:01.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\Program.cs",
               "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Program.cs",
               "RelativeToolTip": "SkillSheet.WebApi\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T09:25:10.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "SkillSheet.Services\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "SkillSheet.Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwAwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:39:31.407Z"
+              "WhenOpened": "2025-03-18T05:39:31.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\Controllers\\UserController.cs",
@@ -425,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\secrets.json",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\secrets.json",
@@ -437,31 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SkillService.cs",
-              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\SkillService.cs",
-              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\SkillService.cs",
-              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\SkillService.cs",
-              "RelativeToolTip": "SkillSheet.Services\\Implementation\\SkillService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDkAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:36:57.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDetailsService.cs",
-              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserDetailsService.cs",
-              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserDetailsService.cs",
-              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserDetailsService.cs",
-              "RelativeToolTip": "SkillSheet.Services\\Implementation\\UserDetailsService.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:37:11.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\appsettings.json",
@@ -473,7 +416,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\User.cs",
+              "RelativeDocumentMoniker": "DataAccess.Enitites\\User.cs",
+              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\User.cs",
+              "RelativeToolTip": "DataAccess.Enitites\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:20:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess.Repositories\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess.Repositories\\Implementation\\UserRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIAwwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:21:36.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "SkillSheet.Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAtwCsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:38:29.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\UmangPatel\\AppData\\Local\\SourceServer\\d1e2ea645792adc9c171141e20dd70408662e9f49d820cdd6b82bcb294aaec7a\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs [Read Only]",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwCMAAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:38:59.493Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\SkillService.cs",
+              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\SkillService.cs",
+              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\SkillService.cs",
+              "RelativeToolTip": "SkillSheet.Services\\Implementation\\SkillService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:36:57.282Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "UserDetailsService.cs",
+              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserDetailsService.cs",
+              "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserDetailsService.cs",
+              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserDetailsService.cs",
+              "RelativeToolTip": "SkillSheet.Services\\Implementation\\UserDetailsService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:37:11.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthControllerTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Controller\\AuthControllerTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Controller\\AuthControllerTest.cs",
@@ -485,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserSkillController.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Controllers\\UserSkillController.cs",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\Controllers\\UserSkillController.cs",
@@ -497,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserDetailsController.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Controllers\\UserDetailsController.cs",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\Controllers\\UserDetailsController.cs",
@@ -509,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserDetailControllerTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Controller\\UserDetailControllerTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Controller\\UserDetailControllerTest.cs",
@@ -521,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SkillSheet.WebApi\\Controllers\\AuthController.cs",
@@ -533,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserSkillTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Controller\\UserSkillTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Controller\\UserSkillTest.cs",
@@ -545,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\AuthService.cs",
               "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\AuthService.cs",
@@ -557,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SkillControllerTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Controller\\SkillControllerTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Controller\\SkillControllerTest.cs",
@@ -569,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserDetailServiceTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Service\\UserDetailServiceTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Service\\UserDetailServiceTest.cs",
@@ -581,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UserControllerTests.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Controller\\UserControllerTests.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Controller\\UserControllerTests.cs",
@@ -593,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserSkillRepository.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserSkillRepository.cs",
               "RelativeDocumentMoniker": "DataAccess.Repositories\\Implementation\\UserSkillRepository.cs",
@@ -605,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserDetailRepository.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\UserDetailRepository.cs",
               "RelativeDocumentMoniker": "DataAccess.Repositories\\Implementation\\UserDetailRepository.cs",
@@ -617,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "SkillRepository.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Repositories\\Implementation\\SkillRepository.cs",
               "RelativeDocumentMoniker": "DataAccess.Repositories\\Implementation\\SkillRepository.cs",
@@ -629,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SkillServiceTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Service\\SkillServiceTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Service\\SkillServiceTest.cs",
@@ -641,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UserSkillServiceTest.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.UnitTest\\Service\\UserSkillServiceTest.cs",
               "RelativeDocumentMoniker": "SkillSheet.UnitTest\\Service\\UserSkillServiceTest.cs",
@@ -653,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UserSkillService.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserSkillService.cs",
               "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserSkillService.cs",
@@ -665,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "UserSkillDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\UserSkillDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\UserSkillDTO.cs",
@@ -677,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\UserDTO.cs",
@@ -689,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ProfilePhotoUploadDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\ProfilePhotoUploadDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\ProfilePhotoUploadDTO.cs",
@@ -701,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ChangePasswordDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\ChangePasswordDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\ChangePasswordDTO.cs",
@@ -713,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UserDetailDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\UserDetailDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\UserDetailDTO.cs",
@@ -725,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CreateUserDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\CreateUserDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\CreateUserDTO.cs",
@@ -737,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ChangeAdminViewDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\ChangeAdminViewDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\ChangeAdminViewDTO.cs",
@@ -749,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Models\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "SkillSheet.Models\\DTOs\\LoginDTO.cs",
@@ -761,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Userdetail.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\Userdetail.cs",
               "RelativeDocumentMoniker": "DataAccess.Enitites\\Userdetail.cs",
@@ -773,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Skill.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\Skill.cs",
               "RelativeDocumentMoniker": "DataAccess.Enitites\\Skill.cs",
@@ -785,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Userskill.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\Userskill.cs",
               "RelativeDocumentMoniker": "DataAccess.Enitites\\Userskill.cs",
@@ -794,18 +810,6 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAA1wA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T05:20:11.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\User.cs",
-              "RelativeDocumentMoniker": "DataAccess.Enitites\\User.cs",
-              "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\DataAccess.Enitites\\User.cs",
-              "RelativeToolTip": "DataAccess.Enitites\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:20:00.464Z"
             },
             {
               "$type": "Document",
