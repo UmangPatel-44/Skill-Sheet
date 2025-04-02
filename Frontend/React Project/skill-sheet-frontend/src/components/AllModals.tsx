@@ -1,8 +1,8 @@
 import { Modal } from "react-bootstrap";
-import AddUser from "./Modals/AddUser";
-import EditUser from "./Modals/EditUser";
-import ChangePassword from "./Modals/ChangePassword";
-import DeleteUser from "./Modals/DeleteUser";
+import AddUser from "./modals/AddUser";
+import EditUser from "./modals/EditUser";
+import ChangePassword from "./modals/ChangePassword";
+import DeleteUser from "./modals/DeleteUser";
 
 interface ModalProps {
   show: boolean;

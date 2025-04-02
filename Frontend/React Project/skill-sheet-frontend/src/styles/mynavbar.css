@@ -1,10 +1,10 @@
 /* Navbar Styling */
 .custom-navbar {
-  background: linear-gradient(135deg, #76c7c0, #48a999);
-  padding: 0.5rem 1rem;
+  background-color: #00796B; /* Teal */
+  padding: 0.6rem 1rem;
 }
 
-/* Logo */
+/* Logo & Brand */
 .custom-navbar .brand-title {
   font-size: 1.2rem;
   font-weight: bold;
@@ -21,24 +21,33 @@
   font-size: 1.3rem;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Buttons */
 .nav-button {
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.9rem;
   font-size: 0.9rem;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
 
+.change-password-btn {
+  background-color: #F39C12;
+  border: none;
+}
+
 .change-password-btn:hover {
-  background-color: #ffcc00 !important;
-  color: black;
+  background-color: #E67E22 !important;
+}
+
+.logout-btn {
+  background-color: #E74C3C;
+  border: none;
 }
 
 .logout-btn:hover {
-  background-color: #d9534f !important;
+  background-color: #C0392B !important;
 }
 
 /* Mobile Adjustments */

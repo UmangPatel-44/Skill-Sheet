@@ -35,4 +35,6 @@ export interface SkillModalProps {
   setSelectedCategory: (category: string) => void
   selectedSkills:number[];
   setSelectedSkills:(skills:number[])=>void
+  experience:string;
+  setExperience:(experience: string )=> void
 }

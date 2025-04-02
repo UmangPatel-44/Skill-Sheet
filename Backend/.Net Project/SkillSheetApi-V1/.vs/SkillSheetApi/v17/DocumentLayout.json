@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19A8E97-A513-4542-8D8C-8C8FEF3ED688}|SkillSheet.Services\\SkillSheet.Services.csproj|solutionrelative:skillsheet.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44F1453E-B54B-444B-9E0C-FAFD742501D2}|DataAccess.Repositories\\DataAccess.Repositories.csproj|c:\\skill sheet project\\backend\\.net project\\skillsheetapi-v1\\dataaccess.repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -322,7 +322,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -339,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\UserService.cs",
               "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\UserService.cs",
@@ -360,8 +360,7 @@
               "RelativeToolTip": "DataAccess.Repositories\\Implementation\\UserRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAIAwwDUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:21:36.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T05:21:36.617Z"
             },
             {
               "$type": "Document",
@@ -373,18 +372,17 @@
               "RelativeToolTip": "DataAccess.Enitites\\Context\\SkillsheetContext.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAIAwwBoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T04:13:42.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T04:13:42.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\EmailService.cs",
               "RelativeDocumentMoniker": "SkillSheet.Services\\Implementation\\EmailService.cs",
               "ToolTip": "C:\\Skill Sheet Project\\Backend\\.Net Project\\SkillSheetApi-V1\\SkillSheet.Services\\Implementation\\EmailService.cs",
               "RelativeToolTip": "SkillSheet.Services\\Implementation\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T09:07:01.089Z",
               "EditorCaption": ""
@@ -399,8 +397,7 @@
               "RelativeToolTip": "SkillSheet.WebApi\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:25:10.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:25:10.906Z"
             },
             {
               "$type": "Document",
@@ -412,8 +409,7 @@
               "RelativeToolTip": "SkillSheet.Services\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAhwAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:39:31.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T05:39:31.407Z"
             },
             {
               "$type": "Document",
@@ -425,8 +421,7 @@
               "RelativeToolTip": "SkillSheet.WebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAmwGwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:42:32.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T06:42:32.164Z"
             },
             {
               "$type": "Document",
@@ -438,8 +433,7 @@
               "RelativeToolTip": "SkillSheet.WebApi\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-01T09:44:52.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:44:52.228Z"
             },
             {
               "$type": "Document",
@@ -463,8 +457,7 @@
               "RelativeToolTip": "SkillSheet.Services\\Implementation\\UserDetailsService.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:37:11.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T05:37:11.943Z"
             },
             {
               "$type": "Document",
@@ -476,8 +469,7 @@
               "RelativeToolTip": "SkillSheet.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T09:03:41.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:03:41.077Z"
             },
             {
               "$type": "Document",
@@ -1053,8 +1045,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Umang\\Learning\u0026Practice\\Asp.net MVC\\SkillSheetApi\\Services\\Implementation\\UserService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwBsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:28:20.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T12:28:20.188Z"
             },
             {
               "$type": "Document",

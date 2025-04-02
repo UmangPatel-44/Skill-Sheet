@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
-import { Modal, Form } from "react-bootstrap";
-
+import { Modal, Form, Button } from "react-bootstrap";
+import useEditUser from "../../hooks/useEditUser";
 
 interface EditUserProps {
   show: boolean;
@@ -10,46 +9,8 @@ interface EditUserProps {
 }
 
 const EditUser: React.FC<EditUserProps> = ({ show, onClose, user, onUserUpdated }) => {
-  const [updatedUser, setUpdatedUser] = useState({ ...user });
-  const [error, setError] = useState<string | null>(null);
-
-
-  useEffect(() => {
-    if (user) {
-      setUpdatedUser({ ...user }); // Update state when user prop changes
-    }
-  }, [user]);
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setUpdatedUser({ ...updatedUser, [e.target.name]: e.target.value });
-    console.log(updatedUser.password);
-  };
-  const handleUpdate = async () => {
-    try {
-      const token = localStorage.getItem("token");
-      const response = await fetch(`  https://localhost:7052/api/User/email/${user.email}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          name: updatedUser.name,
-          email: updatedUser.email,
-          password: updatedUser.password,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to update user details");
-      }
-
-      onUserUpdated();
-      onClose();
-    } catch (error: unknown) {
-      setError(error instanceof Error ? error.message : "An error occurred while updating user details.");
-    }
-  };
-
+  const { updatedUser, error, handleChange, handleUpdate } = useEditUser({ user, onUserUpdated, onClose });
+  
   return (
     <Modal show={show} onHide={onClose} centered backdrop="static">
       <Modal.Header closeButton>
@@ -64,7 +25,7 @@ const EditUser: React.FC<EditUserProps> = ({ show, onClose, user, onUserUpdated 
           </Form.Group>
           <Form.Group className="mt-2">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" name="email" value={updatedUser.email} onChange={handleChange} />
+            <Form.Control type="email" name="email" value={updatedUser.email} onChange={handleChange} readOnly/>
           </Form.Group>
           <Form.Group className="mt-2">
             <Form.Label>Password</Form.Label>
@@ -73,8 +34,8 @@ const EditUser: React.FC<EditUserProps> = ({ show, onClose, user, onUserUpdated 
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <button className="btn btn-secondary" onClick={onClose}>Cancel</button>
-        <button className="btn btn-success" onClick={handleUpdate}>Update</button>
+        <Button variant="secondary" onClick={onClose}>Cancel</Button>
+        <Button variant="success" onClick={handleUpdate}>Update</Button>
       </Modal.Footer>
     </Modal>
   );

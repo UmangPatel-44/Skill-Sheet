@@ -24,6 +24,13 @@ const AdminDashboard = () => {
     showDeleteModal,
     setShowDeleteModal,
     handleDeleteUser,
+    showAddUserModal,
+    setShowAddUserModal,
+    totalPages,
+    currentUsers,
+    currentPage,
+    setCurrentPage
+    
   } = useAdminDashboard();
 
   const navigate = useNavigate();
@@ -47,7 +54,7 @@ const AdminDashboard = () => {
             />
           </div>
           <div className=" col-lg-2 col-md-6 text-md-end text-center mt-2 mt-md-0 ms-auto">
-            <button className="btn btn-primary w-100 w-md-auto" onClick={() => setShowEditModal(true)}>
+            <button className="btn btn-primary w-100 w-md-auto" onClick={() => setShowAddUserModal(true)}>
               Add User
             </button>
           </div>
@@ -72,7 +79,7 @@ const AdminDashboard = () => {
               </tr>
             </thead>
             <tbody>
-              {sortedUsers.map((user) => (
+              {currentUsers.map((user) => (
                 <tr key={user.userId}>
                   <td>{user.name}</td>
                   <td>{user.email}</td>
@@ -89,9 +96,37 @@ const AdminDashboard = () => {
             </tbody>
           </table>
         </div>
+        {/* Pagination Controls */}
+        <div className="d-flex justify-content-center mt-4">
+          <button 
+            className="btn btn-outline-secondary mx-2" 
+            onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))} 
+            disabled={currentPage === 1}
+          >
+            Previous
+          </button>
+
+          {Array.from({ length: totalPages }, (_, i) => (
+            <button
+              key={i}
+              className={`btn mx-1 ${currentPage === i + 1 ? "btn-primary" : "btn-outline-primary"}`}
+              onClick={() => setCurrentPage(i + 1)}
+            >
+              {i + 1}
+            </button>
+          ))}
+
+          <button 
+            className="btn btn-outline-secondary mx-2" 
+            onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))} 
+            disabled={currentPage === totalPages}
+          >
+            Next
+          </button>
+        </div>
 
         {/* Modals */}
-        <AddUserModal show={showEditModal} onClose={() => setShowEditModal(false)} onUserAdded={() => window.location.reload()} />
+        <AddUserModal show={showAddUserModal} onClose={() => setShowAddUserModal(false)} onUserAdded={() => window.location.reload()} />
         <EditUserModal show={showEditModal} onClose={() => setShowEditModal(false)} user={editUser} onUserUpdated={() => window.location.reload()} />
         <DeleteUserModal show={showDeleteModal} onClose={() => setShowDeleteModal(false)} onDelete={handleDeleteUser} userName={selectedUser?.name ?? null} />
       </div>

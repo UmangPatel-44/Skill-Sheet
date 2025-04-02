@@ -17,7 +17,7 @@ export const fetchUserSkills = async (userId: string | null, token:string|null) 
     });
     return response.data.map((skill: { userSkillId:number;skillId:number; skillName: string; experience: number;category:string }) => ({
       userSkillId: skill.userSkillId,
-      skillID:skill.skillId,
+      skillId:skill.skillId,
       name: skill.skillName,
       experience:skill.experience,
       category:skill.category,

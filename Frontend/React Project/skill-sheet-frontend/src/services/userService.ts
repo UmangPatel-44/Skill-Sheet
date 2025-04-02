@@ -86,8 +86,40 @@ export const addUser = async (name: string, email: string, password: string, tok
   
     return response.data;
   };
+  export const updateUser = async (email: string, userData: { name: string; email: string; password: string }, token: string | null) => {
+    try {
+      const response = await fetch(`https://localhost:7052/api/User/email/${email}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify(userData),
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to update user details");
+      }
+  
+      return true;
+    } catch (error) {
+      throw new Error(error instanceof Error ? error.message : "An error occurred while updating user details.");
+    }
+  };
 
+  export const addUserDetails = async (userData: any, token: string) => {
+    const response = await fetch("https://localhost:7052/api/userdetails", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify(userData),
+    });
 
+    if (!response.ok) throw new Error("Failed to add user details.");
+    return response.json();
+};
 
 
   

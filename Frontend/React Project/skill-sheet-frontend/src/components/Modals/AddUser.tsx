@@ -1,60 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+import { useAddUser } from "../../hooks/useAddUser";
 
 interface AddUserProps {
-  onClose: () => void; // Close modal function
-  onUserAdded: () => void; // Callback to refresh user list
+  onClose: () => void;
+  onUserAdded: () => void;
 }
 
 const AddUser: React.FC<AddUserProps> = ({ onClose, onUserAdded }) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    password: "",
-  });
-  
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  // Handle input changes
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    setError(null);
-
-    try {
-      const token = localStorage.getItem("token"); // Get JWT token
-      const response = await fetch("https://localhost:7052/api/User", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to add user");
-      }
-
-      alert("User added successfully!");
-      setFormData({ name: "", email: "", password: "" });
-      onUserAdded(); // Refresh user list
-      onClose(); // Close modal
-    } catch (error: unknown) {
-      setError(error instanceof Error ? error.message : "An unknown error occurred.");
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { formData, loading, error, passwordError, handleChange, handleSubmit } = useAddUser(
+    onUserAdded,
+    onClose
+  );
 
   return (
-    <div className="container px-3 py-2">
-      <div className="row ">
-        <div className="col-12 ">
+    <div className="container px-3 py-1">
+      <div className="row">
+        <div className="col-12">
           {error && <p className="text-danger text-center">{error}</p>}
 
           <form onSubmit={handleSubmit}>
@@ -95,9 +56,19 @@ const AddUser: React.FC<AddUserProps> = ({ onClose, onUserAdded }) => {
                 onChange={handleChange}
                 required
               />
+              {passwordError && <p className="text-danger">{passwordError}</p>}
             </div>
 
-            <button type="submit" className="btn btn-primary w-100" disabled={loading}>
+            <div className="mb-3">
+              <label htmlFor="role" className="form-label fw-bold">Role:</label>
+              <select id="role" className="form-control" value={formData.role} onChange={handleChange} required>
+                <option value="">Select Role</option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+              </select>
+            </div>
+
+            <button type="submit" className="btn btn-primary w-100 mt-3" disabled={loading || !!passwordError}>
               {loading ? "Adding..." : "Add User"}
             </button>
           </form>

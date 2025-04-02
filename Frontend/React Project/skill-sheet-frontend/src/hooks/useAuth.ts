@@ -18,7 +18,6 @@ export const useLogin = () => {
   const validate = () => {
     let valid = true;
     const newErrors = { role: "", email: "", password: "" };
-    // const passowrdPattern=new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$")
     // Role validation
     if (!role) {
       newErrors.role = "Please select a role.";
@@ -44,12 +43,6 @@ export const useLogin = () => {
       newErrors.password="Password cannot be more than 64 characters long";
       valid=false;
     }
-    // else
-    // {
-    //   passowrdPattern.test(password);
-    //   newErrors.password="Password should be a strong Password";
-    //   // valid=false;
-    // }
 
     setErrors(newErrors);
     return valid;

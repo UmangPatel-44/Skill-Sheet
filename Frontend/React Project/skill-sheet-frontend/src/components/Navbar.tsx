@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 import adminLogo from '../assets/adminPageLogo.jpg';
 import { ChangePasswordModal } from './AllModals';
-
+import "../styles/mynavbar.css"
 interface NavbarProps {
   title: string;
   HandleLogout: () => void;
@@ -13,41 +13,36 @@ const CustomNavbar: React.FC<NavbarProps> = ({ title, HandleLogout }) => {
 
   return (
     <>
-      <Navbar expand="lg" style={{ background: '#A3D1C6', padding: '0.3rem 1rem' }} className="shadow-sm">
+      <Navbar expand="lg" className="custom-navbar shadow-sm">
         <Container fluid>
           {/* Navbar Brand */}
           <Navbar.Brand href="#" className="d-flex align-items-center">
-            <img src={adminLogo} height="40" alt="Admin Logo" className="me-2" />
-            <span style={{ fontSize: '1rem' }}>Skill Sheet</span>
+            <img src={adminLogo} height="45" alt="Admin Logo" className="me-2 rounded-circle border shadow-sm" />
+            <span className="brand-title">Skill Sheet</span>
           </Navbar.Brand>
 
           {/* Toggle Button */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
 
           {/* Collapsible Navbar Content */}
-          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-between align-items-center">
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-between">
             {/* Centered Title */}
-            <div className="w-100 text-center">
-              <h5 className="fw-bold mb-0">{title}</h5>
+            <div className="navbar-title-container justify-content-center text-center">
+              <h5 className="navbar-title">{title}</h5>
             </div>
 
             {/* Buttons */}
-            <Nav className="ms-auto d-flex flex-column flex-lg-row gap-2 mt-2 mt-lg-0 align-items-center">
+            <Nav className="ms-auto d-flex gap-2 align-items-center">
               <Button
                 variant="warning"
-                className="opacity-75"
-                style={{
-                  whiteSpace: 'nowrap',
-                  padding: '0.25rem 0.6rem',
-                  fontSize: '0.9rem',
-                }}
+                className="nav-button change-password-btn text-nowrap"
                 onClick={() => setShowChangePasswordModal(true)}
               >
                 Change Password
               </Button>
               <Button
                 variant="danger"
-                style={{ padding: '0.25rem 0.6rem', fontSize: '0.9rem' }}
+                className="nav-button logout-btn"
                 onClick={HandleLogout}
               >
                 Logout

@@ -22,5 +22,26 @@ export const deleteUser = async (email: string, token: string) => {
     throw new Error("Failed to delete user");
   }
 };
+export const addUser = async (userData: any, token: string | null) => {
+  try {
+    const response = await fetch("https://localhost:7052/api/User", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(userData),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to add user");
+    }
+
+    return await response.json(); // Return the created user data
+  } catch (error) {
+    throw new Error(error instanceof Error ? error.message : "An unknown error occurred.");
+  }
+};
+
 
 

@@ -16,7 +16,22 @@ export const useAdminDashboard = () => {
   const [selectedUser, setSelectedUser] = useState<ApiUserResponse | null>(null);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
+  const [showAddUserModal, setShowAddUserModal] = useState(false);
   const [editUser, setEditUser] = useState<ApiUserResponse | null>(null);
+
+  //State for Pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const usersPerPage = 7; // Users per page
+  //Logic for Pagination
+
+  const indexOfLastUser = currentPage * usersPerPage;
+  const indexOfFirstUser = indexOfLastUser - usersPerPage;
+  const currentUsers = sortedUsers.slice(indexOfFirstUser, indexOfLastUser);
+
+  const totalPages = Math.ceil(sortedUsers.length / usersPerPage);
+
+
+
 
   // Fetch Users
   useEffect(() => {
@@ -91,9 +106,15 @@ export const useAdminDashboard = () => {
     setShowDeleteModal,
     showEditModal,
     setShowEditModal,
+    showAddUserModal,
+    setShowAddUserModal,
     editUser,
     setEditUser,
     handleDeleteUser,
     setUsers,
+    currentPage,
+    setCurrentPage,
+    totalPages,
+    currentUsers,
   };
 };

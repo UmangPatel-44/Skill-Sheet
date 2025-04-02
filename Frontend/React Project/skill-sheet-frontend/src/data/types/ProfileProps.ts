@@ -10,4 +10,11 @@ export interface ProfileProps {
     handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => void;
     handleSubmit: () => void;
   }
-  
+  export interface UserDetail {
+      birthDate: string;
+      gender: string;
+      joiningDate: string;
+      qualifications: string;
+      workedInJapan: boolean;
+
+  };
