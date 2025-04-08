@@ -20,8 +20,8 @@ const EditUser: React.FC<EditUserProps> = ({ show, onClose, user, onUserUpdated 
         {error && <p className="text-danger">{error}</p>}
         <Form>
           <Form.Group>
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" name="name" value={updatedUser.name} onChange={handleChange} />
+            <Form.Label htmlFor="name">Name</Form.Label>
+            <Form.Control id="name" type="text" name="name" value={updatedUser.name} onChange={handleChange} />
           </Form.Group>
           <Form.Group className="mt-2">
             <Form.Label>Email</Form.Label>

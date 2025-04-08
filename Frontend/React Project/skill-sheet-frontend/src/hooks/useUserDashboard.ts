@@ -136,19 +136,22 @@ export const useUserDashboard = () => {
     if (e.target.name === "workedInJapan") {
       newValue = e.target.value === "true";
     }
+
     setUpdatedUserDetail({ ...updatedUserDetail, [e.target.name]: newValue });
+    console.log("Updated User Detail:", updatedUserDetail);
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (updatedDetails: UserDetailApiResponse) => {
     try {
-      await updateUserDetails(updatedUserDetail);
-      console.log("Success: User details updated");
+      await updateUserDetails(updatedDetails);
+      setUsersDetail(updatedDetails); // Persist the updated details
       showToast("User details updated successfully!", "success");
     } catch (error) {
       showToast("Failed to update user details", "error");
       console.error("Failed to update user details", error);
     }
   };
+  
 
   return {
     loading,
@@ -162,5 +165,6 @@ export const useUserDashboard = () => {
     handleChange,
     handleSubmit,
     handleImageUpload,
+    setUpdatedUserDetail,
   };
 };

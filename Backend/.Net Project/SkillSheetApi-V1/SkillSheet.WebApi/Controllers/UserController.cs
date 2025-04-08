@@ -4,6 +4,7 @@ using SkillSheet.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using SkillSheet.Models.DTOs;
+using SkillSheet.WebApi.Resources;
 
 
 
@@ -28,17 +29,17 @@ namespace SkillSheet.WebApi.Controllers
         /// <param name="adminViewDTO">Updated Data</param>
         /// <returns></returns>
         [HttpPut("email/{email}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult> ChangeAdminView(string email, [FromBody] ChangeAdminViewDTO adminViewDTO)
         {
             if (email != adminViewDTO.Email)
             {
-                return BadRequest(new { message = "Email Mismatch" });
+                return BadRequest(new { message = GeneralResource.EmailMissmatch });
             }
             var success = await _userService.ChangeAdminViewAsync(adminViewDTO);
             if (!success)
             {
-                return NotFound(new { message = "User not Found" });
+                return NotFound(new { message = GeneralResource.UserNotFound });
             }
             return NoContent();
         }
@@ -71,7 +72,7 @@ namespace SkillSheet.WebApi.Controllers
             var user = await _userService.GetUserByIdAsync(id);
             if (user == null)
             {
-                return NotFound(new { message = "User not found" });
+                return NotFound(new { message = GeneralResource.UserNotFound });
             }
             return Ok(user);
         }
@@ -85,7 +86,7 @@ namespace SkillSheet.WebApi.Controllers
             var user = await _userService.GetUserByEmailAsync(userEmail);
 
             if (user == null)
-                return NotFound("User not found");
+                return NotFound(GeneralResource.UserNotFound);
 
             return Ok(user);
         }
@@ -97,7 +98,7 @@ namespace SkillSheet.WebApi.Controllers
             var user = await _userService.GetUserByEmailAsync(email);
             if (user == null)
             {
-                return NotFound(new { message = "User not found" });
+                return NotFound(new { message = GeneralResource.UserNotFound });
             }
             return Ok(user);
         }
@@ -109,7 +110,7 @@ namespace SkillSheet.WebApi.Controllers
             var success = await _userService.DeleteUserAsync(email);
             if (!success)
             {
-                return NotFound(new { message = "User not found" });
+                return NotFound(new { message = GeneralResource.UserNotFound });
             }
 
             return NoContent();
@@ -127,12 +128,12 @@ namespace SkillSheet.WebApi.Controllers
          {
              if (changePasswordDTO.Email != email)
              {
-                 return BadRequest(new { message = "User Email mismatch" });
+                 return BadRequest(new { message = GeneralResource.EmailMissmatch });
              }
              var success = await _userService.ChangePasswordAsync(changePasswordDTO);
              if (!success)
              {
-                 return NotFound(new { message = "User not found" });
+                 return NotFound(new { message = GeneralResource.UserNotFound });
              }
 
              return NoContent();

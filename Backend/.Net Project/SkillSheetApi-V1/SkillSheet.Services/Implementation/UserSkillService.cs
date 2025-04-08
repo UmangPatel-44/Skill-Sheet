@@ -2,6 +2,7 @@
 using SkillSheet.Models.DTOs;
 using DataAccess.Repositories.Interfaces;
 using SkillSheet.Services.Interfaces;
+using SkillSheet.Services.Resources;
 namespace SkillSheet.Services.Implementation
 {
     public class UserSkillService : IUserSkillService
@@ -23,8 +24,8 @@ namespace SkillSheet.Services.Implementation
                     UserSkillId = userSkill.UserSkillId,
                     UserId = userSkill.UserId,
                     SkillId = userSkill.SkillId,
-                    SkillName = userSkill.Skill?.SkillName ?? "Not Found",
-                    Category = userSkill.Skill?.Category ?? "Not Found",
+                    SkillName = userSkill.Skill?.SkillName ?? ErrorMessages.NotFoundError,
+                    Category = userSkill.Skill?.Category ?? ErrorMessages.NotFoundError,
                     Experience = userSkill.Experience,
                     DateAdded = userSkill.DateAdded
                 });

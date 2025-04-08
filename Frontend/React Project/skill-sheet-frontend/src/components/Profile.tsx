@@ -29,11 +29,12 @@ const Profile: React.FC<ProfileProps> = ({ user, usersDetail: initialUserDetail,
               </div>
 
               <div className="col">
-                <label className="form-label fw-semibold">Birthdate</label>
+                <label className="form-label fw-semibold"htmlFor="birthdate">Birthdate</label>
                 <input
                   className="form-control fs-6 fs-md-5"
                   name="birthDate"
                   type="date"
+                  id="birthdate"
                   max={getTodayDate()}
                   value={usersDetail.birthDate}
                   onChange={handleChange}
@@ -82,11 +83,12 @@ const Profile: React.FC<ProfileProps> = ({ user, usersDetail: initialUserDetail,
             </div>
 
               <div className="col">
-                <label className="form-label fw-semibold">Joining Date</label>
+                <label className="form-label fw-semibold"htmlFor="joiningDate">Joining Date</label>
                 <input
                   className="form-control fs-6 fs-md-5"
                   name="joiningDate"
                   type="date"
+                  id="joiningDate"
                   max={getTodayDate()}
                   value={usersDetail.joiningDate}
                   onChange={handleChange}
@@ -97,10 +99,11 @@ const Profile: React.FC<ProfileProps> = ({ user, usersDetail: initialUserDetail,
 
             <div className="row row-cols-1 row-cols-md-2 gx-4 gy-3 mt-3">
               <div className="col">
-                <label className="form-label fw-semibold">Worked In Japan</label>
+                <label className="form-label fw-semibold"htmlFor="workedInJapan">Worked In Japan</label>
                 <select
                   className="form-select fs-6 fs-md-5"
                   name="workedInJapan"
+                  id="workedInJapan"
                   value={usersDetail.workedInJapan ? "true" : "false"}
                   onChange={handleChange}
                 >
@@ -110,10 +113,11 @@ const Profile: React.FC<ProfileProps> = ({ user, usersDetail: initialUserDetail,
               </div>
 
               <div className="col">
-                <label className="form-label fw-semibold">Qualification</label>
+                <label className="form-label fw-semibold"htmlFor="qualification">Qualification</label>
                 <textarea
                   className="form-control fs-6 fs-md-5"
                   name="qualifications"
+                  id="qualification"
                   placeholder="Enter your qualification"
                   value={usersDetail.qualifications}
                   onChange={handleChange}

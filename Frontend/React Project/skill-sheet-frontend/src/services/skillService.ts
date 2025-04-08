@@ -145,11 +145,19 @@ export const deleteUserSkill = async (userSkillId: number | null) => {
         console.error("Response data:", error.response.data);
         console.error("Response status:", error.response.status);
       }
+    } else if (
+      error instanceof Error &&
+      error.message === "User Skill ID cannot be null"
+    ) {
+      // Re-throw the same error so test can catch it
+      throw error;
     } else {
       console.error("Unexpected error:", error);
     }
+  
     throw new Error("Failed to delete user skill. Please try again.");
   }
+  
 };
 
 export const saveUserSkill = async (skillData: SkillData, token: string) => {

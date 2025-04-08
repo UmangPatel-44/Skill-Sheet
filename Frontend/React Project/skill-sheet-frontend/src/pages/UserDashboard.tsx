@@ -20,6 +20,7 @@ const Dashboard = () => {
     setActiveTab,
     user,
     updatedUserDetail,
+    setUpdatedUserDetail,
     handleChange,
     handleSubmit,
     photo,
@@ -100,7 +101,14 @@ transition={Bounce}
               </nav>
               <hr className="mt-0 mb-4" />
               {activeTab === "profile" ? (
-                <Profile user={user} usersDetail={updatedUserDetail} handleChange={handleChange} handleSubmit={handleSubmit} />
+               <Profile
+               user={user}
+               usersDetail={updatedUserDetail}
+               setUsersDetail={setUpdatedUserDetail}
+               handleChange={handleChange}
+               handleSubmit={handleSubmit}
+             />
+             
               ) : (
                 <Skills />
               )}

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SkillSheet.Models.DTOs;
 using SkillSheet.Services.Interfaces;
+using SkillSheet.WebApi.Resources;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -30,7 +31,7 @@ namespace SkillSheet.WebApi.Controllers
             var userDetails = await _userDetailService.GetUserDetailByUserIdAsync(userId);
 
             if (userDetails == null)
-                return NotFound(new { message = "User details not found" });
+                return NotFound(new { message = GeneralResource.UserDetailNotFound });
 
             return Ok(userDetails);
             }
@@ -51,7 +52,7 @@ namespace SkillSheet.WebApi.Controllers
             var success = await _userDetailService.UpdateUserDetailAsync(userId, userDetailDto);
 
             if (!success)
-                return BadRequest(new Dictionary<string, string> { { "message", "Failed to update details" } });
+                return BadRequest(new Dictionary<string, string> { { "message", GeneralResource.DetailsUpdateFail } });
 
             return NoContent();
         }
@@ -60,12 +61,12 @@ namespace SkillSheet.WebApi.Controllers
         {
             if (photo == null || photo.Length == 0)
             {
-                return BadRequest(new { success = false, message = "Invalid file." });
+                return BadRequest(new { success = false, message = GeneralResource.InvalidFile });
             }
 
             if (!int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value, out int userId))
             {
-                return Unauthorized(new { success = false, message = "User not authorized." });
+                return Unauthorized(new { success = false, message = GeneralResource.UserNotAuthorised });
             }
 
             // Call service method, which now returns the photo path
@@ -73,7 +74,7 @@ namespace SkillSheet.WebApi.Controllers
 
             if (string.IsNullOrEmpty(photoPath))
             {
-                return BadRequest(new { success = false, message = "Failed to upload profile photo." });
+                return BadRequest(new { success = false, message = GeneralResource.PhotoUploadFail });
             }
 
             return Ok(new { success = true, photoPath });
@@ -87,7 +88,7 @@ namespace SkillSheet.WebApi.Controllers
 
             if (userDetails == null || string.IsNullOrEmpty(userDetails.PhotoPath))
             {
-                return NotFound(new Dictionary<string, string> { { "message", "Profile photo not found" } });
+                return NotFound(new Dictionary<string, string> { { "message", GeneralResource.ProfilePhotoNotFound } });
             }
 
             // Return the photo URL

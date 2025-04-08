@@ -20,10 +20,11 @@ const Login = () => {
 
           {/* Role */}
           <div className="mb-4">
-            <label className="form-label">Role</label>
+            <label className="form-label"htmlFor="role">Role</label>
             <select
               className={`form-select ${errors.role ? "is-invalid" : ""}`}
               value={role}
+              id="role"
               onChange={(e) => setRole(e.target.value as "User" | "Admin")}
             >
               <option value="User">User</option>
@@ -35,10 +36,11 @@ const Login = () => {
           {/* Email */}
           <div className="mb-4" 
           >
-            <label className="form-label">Email</label>
+            <label className="form-label"htmlFor="email">Email</label>
             <select
               className={`form-select ${errors.email ? "is-invalid" : ""}`}
               value={email} 
+              id="email"
               onChange={(e) => setEmail(e.target.value)}
             >
               <option value="">Select Email</option>
@@ -52,7 +54,7 @@ const Login = () => {
           </div>
 
           {/* Password */}
-          <label className="form-label">Password</label>
+          <label className="form-label"htmlFor="password">Password</label>
           <MDBInput
             wrapperClass={`mb-1 ${errors.password ? "is-invalid" : ""}`}
             id="password"

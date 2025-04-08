@@ -62,5 +62,5 @@ C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\SkillSheet.Services.genruntimeconfig.cache
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\ref\SkillSheet.Services.dll
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\SkillSheet.Services.sourcelink.json
-C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\SkillSheet.Services.Resources.SMTP.resources
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\SkillSheet.Services.csproj.GenerateResource.cache
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.Services\obj\Debug\net8.0\SkillSheet.Services.Resources.ErrorMessages.resources

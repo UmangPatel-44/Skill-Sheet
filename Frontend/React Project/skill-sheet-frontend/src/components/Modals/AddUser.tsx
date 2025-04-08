@@ -18,7 +18,7 @@ const AddUser: React.FC<AddUserProps> = ({ onClose, onUserAdded }) => {
         <div className="col-12">
           {error && <p className="text-danger text-center">{error}</p>}
 
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} data-testid="add-user-form">
             <div className="mb-3">
               <label htmlFor="name" className="form-label fw-bold">Name</label>
               <input

@@ -81,7 +81,7 @@ export const useLogin = () => {
       navigate(role === "Admin" ? "/admindashboard" : "/dashboard");
     } catch (error) {
       console.error("Login failed", error);
-      if (error.response && error.response.status === 401) {
+      if ((error as { response?: { status: number } }).response?.status === 401) {
         setErrors((prevErrors) => ({
           ...prevErrors,
           password: "Incorrect password, please try again.",

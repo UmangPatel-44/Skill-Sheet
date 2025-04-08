@@ -13,3 +13,9 @@ export interface UserDetailApiResponse {
     name: string;
     email: string;
   }
+  export interface TestUserApiResponse {
+    userId: number;
+    name: string;
+    email: string;
+    role: string;
+  }

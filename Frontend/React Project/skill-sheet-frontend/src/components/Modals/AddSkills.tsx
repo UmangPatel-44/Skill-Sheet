@@ -33,10 +33,11 @@ const AddSkills: React.FC<SkillModalProps> = ({
         <form>
           {/* Category Dropdown */}
           <div className="mb-3">
-            <label className="form-label">Select Category</label>
+            <label className="form-label"htmlFor="category">Select Category</label>
             <select
               className="form-select"
               value={selectedCategory}
+              id="category"
               onChange={(e) => setSelectedCategory(e.target.value)}
             >
               <option value="">Choose a Category...</option>
@@ -50,12 +51,13 @@ const AddSkills: React.FC<SkillModalProps> = ({
 
           {/* Skill Dropdown */}
           <div className="mb-3">
-            <label className="form-label">Select Skill</label>
+            <label className="form-label"htmlFor="selectskill">Select Skill</label>
             <Select
               options={skills.map((skill) => ({
                 value: skill.skillId,
                 label: skill.skillName,
               }))}
+              id="selectskill"
               isMulti
               onChange={(selected) => setSelectedSkills(selected.map((s) => s.value))}
               value={skills
@@ -67,11 +69,12 @@ const AddSkills: React.FC<SkillModalProps> = ({
 
           {/* Experience Input */}
           <div className="mb-3">
-            <label className="form-label">Experience (years)</label>
+            <label className="form-label"htmlFor="experience">Experience (years)</label>
             <input
               type="number"
               className="form-control"
               value={experience}
+              id="experience"
               onChange={handleExperienceChange}
               placeholder="Enter years of experience"
               min="1"

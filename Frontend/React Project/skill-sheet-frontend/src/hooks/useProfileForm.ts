@@ -3,7 +3,7 @@ import { UserDetail } from "../data/types/ProfileProps";
 
 interface UseProfileFormProps {
   initialUserDetail: UserDetail;
-  handleSubmit: () => void;
+  handleSubmit: (userDetail: UserDetail) => void;
 }
 
 const useProfileForm = ({ initialUserDetail, handleSubmit }: UseProfileFormProps) => {
@@ -121,9 +121,10 @@ const isValidGender=(gender:string)=>
 
   const onSubmit = () => {
     if (validateForm()) {
-      handleSubmit();
+      handleSubmit(usersDetail); // Pass updated data
     }
   };
+  
 
   return {
     usersDetail,

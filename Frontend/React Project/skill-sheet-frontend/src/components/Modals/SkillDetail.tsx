@@ -4,7 +4,7 @@ import { Modal, Button } from "react-bootstrap";
 interface SkillDetailModalProps {
   show: boolean;
   handleClose: () => void;
-  skill: { name: string; level: string; experience: number; category: string; userSkillId: number };
+  skill: { name: string; level: string; experience: number; category: string; userSkillId: number }|null;
   handleDelete: (skillId: number) => void;
 }
 

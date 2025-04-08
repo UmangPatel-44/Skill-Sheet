@@ -1,8 +1,8 @@
-  import React, { useEffect } from "react";
+  import React from "react";
   import { useSkills } from "../hooks/useUserSkills";
   import { Button } from "react-bootstrap";
-  import AddSkills from "./modals/AddSkills";
-  import SkillDetailModal from "./modals/SkillDetail";
+  import AddSkills from "./Modals/AddSkills";
+  import SkillDetailModal from "./Modals/SkillDetail";
   const Skills: React.FC = () => {
     const {
       skills,
@@ -87,7 +87,11 @@
         <SkillDetailModal
           show={showSkillDetailModal}
           handleClose={() => setShowSkillDetailModal(false)}
-          skill={selectedSkillDetail || { name: "", level: "", experience: 0, category: "", userSkillId: 0 }}
+          skill={
+            selectedSkillDetail
+              ? { ...selectedSkillDetail, level: selectedSkillDetail.level.toString() }
+              : { name: "", level: "", experience: 0, category: "", userSkillId: 0 }
+          }
           handleDelete={handleDeleteSkill}
         />
       </div>

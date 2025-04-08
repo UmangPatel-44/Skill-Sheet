@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SkillSheet.Models.DTOs;
 using SkillSheet.Services.Interfaces;
 using SkillSheet.WebApi;
+using SkillSheet.WebApi.Resources;
 namespace SkillSheet.WebApi.Controllers
 {
     [Route("api/[controller]")]
@@ -21,7 +22,7 @@ namespace SkillSheet.WebApi.Controllers
             var id = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
             if (userId != id)
             {
-                return BadRequest(error: "Please Enter the Login Id only");
+                return BadRequest(error: GeneralResource.EnterLoginId);
             }
 
             var skills = await _userSkillService.GetUserSkillsAsync(userId);

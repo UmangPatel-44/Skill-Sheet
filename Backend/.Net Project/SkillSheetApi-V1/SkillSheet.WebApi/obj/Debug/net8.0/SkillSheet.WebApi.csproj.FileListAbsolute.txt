@@ -398,6 +398,7 @@ C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\o
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.genruntimeconfig.cache
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\ref\SkillSheet.WebApi.dll
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.sourcelink.json
-C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.Resources.SMTPResource.resources
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.csproj.GenerateResource.cache
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\bin\Debug\net8.0\secrets.json
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.Resources.GeneralResource.resources
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.WebApi\obj\Debug\net8.0\SkillSheet.WebApi.Resources.ErrorMessages.resources

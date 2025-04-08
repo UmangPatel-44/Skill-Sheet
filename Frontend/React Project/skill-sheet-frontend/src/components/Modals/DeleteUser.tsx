@@ -11,7 +11,7 @@ interface DeleteUserProps {
 const DeleteUser: React.FC<DeleteUserProps> = ({ show, onClose, onDelete, userName }) => {
   return (
     <Modal show={show} onHide={onClose} centered backdrop="static">
-      <Modal.Header closeButton>
+      <Modal.Header closeButton data-testid="confirmDeleteTitle">
         <Modal.Title>Confirm Delete</Modal.Title>
       </Modal.Header>
       <Modal.Body>

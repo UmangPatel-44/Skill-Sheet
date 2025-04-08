@@ -1,8 +1,8 @@
 import { Modal } from "react-bootstrap";
-import AddUser from "./modals/AddUser";
-import EditUser from "./modals/EditUser";
-import ChangePassword from "./modals/ChangePassword";
-import DeleteUser from "./modals/DeleteUser";
+import AddUser from "./Modals/AddUser";
+import EditUser from "./Modals/EditUser";
+import ChangePassword from "./Modals/ChangePassword";
+import DeleteUser from "./Modals/DeleteUser";
 
 interface ModalProps {
   show: boolean;
@@ -42,7 +42,7 @@ export const EditUserModal = ({ show, onClose, user, onUserUpdated }: EditUserMo
   user ? <EditUser show={show} onClose={onClose} user={user} onUserUpdated={onUserUpdated} /> : null;
 
 export const ChangePasswordModal = ({ show, onClose, userEmail }: ChangePasswordModalProps) =>
-  userEmail ? <ChangePassword show={show} onClose={onClose} userEmail={userEmail} /> : null;
+  userEmail ? <ChangePassword show={show} onClose={onClose} userEmail={userEmail}/> : null;
 
 export const DeleteUserModal = ({ show, onClose, onDelete, userName }: DeleteUserModalProps) =>
   userName ? <DeleteUser show={show} onClose={onClose} onDelete={onDelete} userName={userName} /> : null;

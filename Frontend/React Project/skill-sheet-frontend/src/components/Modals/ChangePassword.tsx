@@ -31,10 +31,11 @@ const ChangePassword: React.FC<ChangePasswordProps> = ({ show, onClose, userEmai
         {error && <p className="text-danger">{error}</p>}
         <Form>
           <Form.Group className="mb-3">
-            <Form.Label>Old Password</Form.Label>
+            <Form.Label htmlFor="oldPassword">Old Password</Form.Label>
             <Form.Control
               type="password"
               value={oldPassword}
+              id="oldPassword"
               onChange={(e) => setOldPassword(e.target.value)}
               isInvalid={!!errors.oldPassword}
             />
@@ -42,10 +43,11 @@ const ChangePassword: React.FC<ChangePasswordProps> = ({ show, onClose, userEmai
           </Form.Group>
 
           <Form.Group className="mb-3">
-            <Form.Label>New Password</Form.Label>
+            <Form.Label htmlFor="newPassword">New Password</Form.Label>
             <Form.Control
               type="password"
               value={newPassword}
+              id="newPassword"
               onChange={(e) => setNewPassword(e.target.value)}
               isInvalid={!!errors.newPassword}
             />
@@ -53,10 +55,11 @@ const ChangePassword: React.FC<ChangePasswordProps> = ({ show, onClose, userEmai
           </Form.Group>
 
           <Form.Group className="mb-3">
-            <Form.Label>Confirm New Password</Form.Label>
+            <Form.Label htmlFor="confirmPassword">Confirm New Password</Form.Label>
             <Form.Control
               type="password"
               value={confirmPassword}
+              id="confirmPassword"
               onChange={(e) => setConfirmPassword(e.target.value)}
               isInvalid={!!errors.confirmPassword}
             />

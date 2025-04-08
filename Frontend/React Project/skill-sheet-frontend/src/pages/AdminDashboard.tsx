@@ -7,7 +7,6 @@ import { useAdminDashboard } from "../hooks/useAdminDashboard";
 
 const AdminDashboard = () => {
   const {
-    sortedUsers,
     loading,
     error,
     searchTerm,

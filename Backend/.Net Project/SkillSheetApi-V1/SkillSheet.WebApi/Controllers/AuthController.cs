@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SkillSheet.Models.DTOs;
 using SkillSheet.Services.Interfaces;
+using SkillSheet.WebApi.Resources;
 using System.Reflection;
 using System.Threading.Tasks;
-//using SkillSheet.WebApi.Resources;
+
 namespace SkillSheet.WebApi.Controllers
 {
     [Route("api/[controller]")]
@@ -16,6 +17,7 @@ namespace SkillSheet.WebApi.Controllers
         {
             _authService = authService;
         }
+
         /// <summary>
         /// This Request is for Login Where User enters his Credential and if Yes then User is Logged in According to his Role
         /// </summary>
@@ -24,14 +26,25 @@ namespace SkillSheet.WebApi.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var token = await _authService.AuthenticateAsync(loginDto);
-
-            if (token == null)
+            try
             {
-                return Unauthorized(new { message ="Invalid Credintials" });   //ErrorMessage.InvalidCredential
-            }
+                var token = await _authService.AuthenticateAsync(loginDto);
 
-            return Ok(new { Token = token });
+                if (token == null)
+                {
+                    return Unauthorized(new { message = ErrorMessages.InvalidCredentials }); //ErrorMessage.InvalidCredential
+                }
+
+                return Ok(new { Token = token });
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (you can use a logging framework here)
+                Console.WriteLine(ErrorMessages.ErrorOccured+ex.Message);
+
+                // Return a generic error response
+                return StatusCode(500, new { message = ErrorMessages.ErrrorWhileProccessing });
+            }
         }
     }
 }

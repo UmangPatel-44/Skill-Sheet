@@ -442,3 +442,4 @@ C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.UnitTest
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.UnitTest\obj\Debug\net8.0\SkillSheet.UnitTest.pdb
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.UnitTest\obj\Debug\net8.0\SkillSheet.UnitTest.genruntimeconfig.cache
 C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.UnitTest\obj\Debug\net8.0\ref\SkillSheet.UnitTest.dll
+C:\Skill Sheet Project\Backend\.Net Project\SkillSheetApi-V1\SkillSheet.UnitTest\obj\Debug\net8.0\SkillSheet.UnitTest.sourcelink.json
